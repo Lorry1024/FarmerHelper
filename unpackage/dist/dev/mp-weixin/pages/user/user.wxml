@@ -1,0 +1,1 @@
+<view class="container data-v-0f7520f0"><view class="message-area data-v-0f7520f0"><image class="avatar data-v-0f7520f0" src="{{a}}"></image><view class="message data-v-0f7520f0"><text class="data-v-0f7520f0">这是登录界面，请……</text></view></view><image class="bg-image data-v-0f7520f0" src="{{b}}" mode="aspectFill"></image></view>

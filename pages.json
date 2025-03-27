@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户中心"
+			}
+		},
+		{
+			"path" : "pages/publish/publish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "一键发布"
+			}
+		},
+		{
+			"path" : "pages/openStore/openStore",
+			"style" : 
+			{
+				"navigationBarTitleText" : "电商教程"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#9AA338",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#999999", // 未选中图标和文字颜色
+	    "selectedColor": "#007AFF", // 选中图标和文字颜色
+	    "backgroundColor":  "#9AA338", // 导航栏背景颜色
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "",
+	        "iconPath": "/static/images/tabbar/home.png", // 未选中图标路径
+	        "selectedIconPath": "/static/images/tabbar/home_active.png" // 选中图标路径
+	      },
+	      {
+	        "pagePath": "pages/publish/publish",
+	        "text": "",
+	        "iconPath": "/static/images/tabbar/tap.png",
+	        "selectedIconPath": "/static/images/tabbar/tap_active.png"
+	      },
+	      {
+	        "pagePath": "pages/openStore/openStore",
+	        "text": "",
+	        "iconPath": "/static/images/tabbar/cart-empty.png",
+	        "selectedIconPath": "/static/images/tabbar/cart-empty_active.png"
+	      },
+	      {
+	        "pagePath": "pages/user/user",
+	        "text": "",
+	        "iconPath": "/static/images/tabbar/customer.png",
+	        "selectedIconPath": "/static/images/tabbar/customer_active.png"
+	      }
+	    ]
+	},
+	"uniIdRouter": {}
+}

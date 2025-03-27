@@ -1,0 +1,1 @@
+{"version":3,"file":"openStore.js","sources":["../../HBuilderX.4.55.2025030718/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvb3BlblN0b3JlL29wZW5TdG9yZS52dWU"],"sourcesContent":["import MiniProgramPage from 'E:/计设/FarmerHelper/pages/openStore/openStore.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

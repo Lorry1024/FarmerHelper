@@ -1,0 +1,1 @@
+{"version":3,"file":"voice.js","sources":["../../HBuilderX.4.55.2025030718/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvdm9pY2Uvdm9pY2UudnVl"],"sourcesContent":["import MiniProgramPage from 'E:/计设/FarmerHelper/pages/voice/voice.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/publish/publish",
+    "pages/openStore/openStore"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#9AA338",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#9AA338",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "/static/images/tabbar/home.png",
+        "selectedIconPath": "/static/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "",
+        "iconPath": "/static/images/tabbar/tap.png",
+        "selectedIconPath": "/static/images/tabbar/tap_active.png"
+      },
+      {
+        "pagePath": "pages/openStore/openStore",
+        "text": "",
+        "iconPath": "/static/images/tabbar/cart-empty.png",
+        "selectedIconPath": "/static/images/tabbar/cart-empty_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "",
+        "iconPath": "/static/images/tabbar/customer.png",
+        "selectedIconPath": "/static/images/tabbar/customer_active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "custom-tabbar": "/components/custom-tabbar/custom-tabbar"
+  }
+}
